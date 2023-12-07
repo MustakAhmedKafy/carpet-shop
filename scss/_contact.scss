@@ -1,0 +1,21 @@
+// $background-color: transparent;
+$focus: 0 0 0 0.01rem rgba(189, 153, 35, .8);
+$border-focus: rgba(189, 153, 35, .8);
+$border: rgb(128, 128, 128);
+$color:#fff !important;
+
+
+.form-control {
+  padding: .5rem .75rem;
+  border: 0px;
+  border-radius: 0.3rem;
+  border: 1px solid $border;
+  color: $color;
+}
+
+.form-control:focus {
+  box-shadow: $box-shadow;
+  border: 1px solid $border-focus;
+  box-shadow: $focus;
+  color: $color;
+}
